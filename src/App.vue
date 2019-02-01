@@ -17,7 +17,9 @@
         <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
           <router-link class="mdl-navigation__link" to="/home" @click.native="hideMenu">Home</router-link>
           <router-link class="mdl-navigation__link" to="/about" @click.native="hideMenu">About</router-link>
+          <router-link class="mdl-navigation__link" to="/gallery" @click.native="hideMenu">Gallery</router-link>
           <router-link class="mdl-navigation__link" to="/contact" @click.native="hideMenu">Contact</router-link>
+
         </nav>
       </div>
     </header>
@@ -26,13 +28,15 @@
       <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
         <router-link class="mdl-navigation__link" to="/home" @click.native="hideMenu">Home</router-link>
         <router-link class="mdl-navigation__link" to="/about" @click.native="hideMenu">About</router-link>
+        <router-link class="mdl-navigation__link" to="/gallery" @click.native="hideMenu">Gallery</router-link>
         <router-link class="mdl-navigation__link" to="/contact" @click.native="hideMenu">Contact</router-link>
+
       </nav>
     </div>
     <!--TODO NEW HEADER//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <main class="mdl-layout__content">
-      <div class="page-content">
+      <div class="page-content main">
         <router-view></router-view>
       </div>
     </main>
